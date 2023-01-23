@@ -69,7 +69,9 @@ body {
 .navigation:focus {
   color: var(--accent-txt-color);
 }
-
+.active-link {
+  color: var(--accent-txt-color);
+}
 .header-link {
   font-family: "Roboto";
   font-style: normal;
@@ -161,6 +163,8 @@ body {
   line-height: 24px;
 }
 
+/*Filters*/
+
 .filter-button {
   background-color: var(--button-section-bg-color);
   border: 1px solid #e7e9fc;
@@ -185,6 +189,8 @@ body {
   border-radius: 4px;
   color: var(--tertiary-txt-color);
 }
+
+/*Projects*/
 
 .project-box {
   background: var(--tertiary-txt-color);
