@@ -39,12 +39,9 @@ body {
 }
 .logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
+  line-height: calc(21 / 18);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-txt-color);
@@ -54,13 +51,9 @@ body {
 }
 
 .navigation {
-  width: 48px;
-  height: 24px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--secondary-txt-color);
 }
@@ -73,11 +66,9 @@ body {
   color: var(--accent-txt-color);
 }
 .header-link {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--secondary-txt-color);
 }
@@ -88,10 +79,8 @@ body {
 /*Hero section*/
 
 .hero-headline {
-  font-style: normal;
-  font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: calc(60 / 56);
   letter-spacing: 0.02em;
   color: var(--tertiary-txt-color);
 }
@@ -105,14 +94,12 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
+  line-height: calc(24 / 16);
   letter-spacing: 0.04em;
   color: var(--tertiary-txt-color);
+  cursor: pointer;
 }
 .service-btn:hover,
 .service-btn:focus {
@@ -121,19 +108,30 @@ body {
 
 /* Section 1*/
 
-.list {
-  font-style: normal;
+.subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: calc(24 / 20);
   letter-spacing: 0.02em;
   color: var(--primary-txt-color);
 }
+
 .text {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
   color: var(--secondary-txt-color);
+}
+
+/* Section 2*/
+.title {
+  left: 559px;
+  top: 1016px;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-txt-color);
 }
 
 /*Section 3*/
@@ -147,20 +145,16 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .name {
-  width: 134px;
-  height: 24px;
-  font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: calc(24 / 20);
   color: var(--primary-txt-color);
+  letter-spacing: 0.02em;
 }
 
 .position {
-  width: 128px;
-  height: 24px;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
 }
 
 /*Filters*/
@@ -170,15 +164,12 @@ body {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: calc(24 / 16);
   letter-spacing: 0.04em;
   color: var(--logo-txt-color);
+  cursor: pointer;
 }
 
 .filter-button:hover,
@@ -192,22 +183,17 @@ body {
 
 /*Projects*/
 
-.project-box {
-  background: var(--tertiary-txt-color);
-  border: 1px solid #e7e9fc;
-}
 .projects {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: calc(24 / 20);
   letter-spacing: 0.02em;
   color: var(--primary-txt-color);
 }
 
 .project-desc {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--secondary-txt-color);
 }
@@ -222,9 +208,8 @@ body {
   color: var(--footer-txt-color);
 }
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--second-footer-txt-color);
 }
